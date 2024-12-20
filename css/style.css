@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Noto+Kufi+Arabic:wght@800&family=PT+Sans+Narrow:wght@400;700&family=Playwrite+HR+Lijeva+Guides&family=Playwrite+IE+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.navbar-brand{
+    font-size:30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbox i{
+margin: 16px;
+font-size:20px;
+}
+.carousel-item{
+background-color: whitesmoke;
+height:70vh;
+width: 100%;
+}
+.box1 img{
+    height: 70vh;
+    margin-left: 900px;
+}
+.Element-components{
+    position: absolute;
+    text-align: center;
+    margin-top: -330px;
+    margin-left: 200px;
+}
+.Element-components h2{
+    font-family: "Edu AU VIC WA NT Pre", serif;
+    font-size: 50px;
+}
+.Element-components h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.Element-components h3{
+    font-weight: 400;
+}
+.button{
+ margin: 20px; 
+ margin-left: 100px;  
+}
+.button button{
+    border-radius: 0px;
+}
+.button button:hover{
+    border: solid 2px blue;
+    background-color: #fff;
+    color: blue;
+}
+.button2{
+    margin-left: 30px;
+}
+.button2 button{
+    border-radius: 0px;
+}
+.link-link{
+    display: none;
+}
+.fa-truck-fast{
+    font-size: 30px;
+  margin:20px;
+}
+.fa-handshake{
+    font-size: 30px;
+  margin:20px;
+}
+.fa-hand-holding-dollar{
+    font-size: 30px;
+  margin:20px;
+  margin-top: 12px;
+}
+.fa-comments{
+    font-size: 30px;
+  margin:20px;
+}
+.box7 .img img{
+    width: 610px;
+    height: 500px;
+}
+.Element-components6{
+margin-top: -370px;
+margin-left: 20px;
+position: absolute;
+}
+.Element-components6 h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 270px;
+}
+.Element-components6 h5{
+    margin-left: 435px;
+}
+.Element-components6 h4{
+    margin-left: 400px;
+}
+.Element-components6 button{
+    margin-left: 450px;
+}
+.jou{
+    top: -5px;
+    position: relative;
+}
+.jou .jouen img{
+    width: 230px;
+    height: 240px;
+}
+.Element-components7{
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+top: -200px;
+left: 20px;
+}
+.Element-components7 h1{
+    font-size: 30px;
+}
+.Element-components7 a{
+    position: relative;
+    left: -10px;
+}
+.nav2 .kol{
+    justify-content: center;
+
+}
+.nav2 .kol2{
+    margin-top: 10px;
+}
+.nav2 a{
+text-decoration: none;
+color: black;
+margin: 10px;
+}
+.nav2 .alama{
+    height: 5px;
+    width: 100%;
+}
+.position-absolute{
+    margin-top: 250px;
+}
+.position-absolute img{
+    width: 494px;
+    height: 251px;
+}
+.position-absolute .Element-components8{
+    color: #fff;
+    margin-top: -220px;
+    margin-left: 30px;
+}
+.fa-star{
+    color: yellow;
+}
+.typi{
+    height: 410px;
+}
+.bobo{
+    height: 410px;
+}
+.lolpo{
+    height: 410px;
+}
+.sholpo{
+height: 410px;
+}
+.hgf{
+    height: 410px;
+}
+@media screen and (max-width:1196px){
+    .box1 img{
+        margin-left:650px;
+    }
+}
+@media screen and (max-width:1190px){
+        .box1 img{
+            margin-left:500px;
+        }
+} 
+@media screen and (max-width:1150px){
+    .position-absolute{
+        margin-top: 510px;
+        margin-left: -625px;
+    }
+    .jouen{
+        margin-top: -58px;
+    }
+    .box7{
+        translate:12% 0%;
+    }
+    .nav2{
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width:1115px){
+    .box7{
+        translate:10% 0%;
+    }
+}
+@media screen and (max-width:1065px){
+    .box7{
+        translate:8% 0%;
+    }
+}
+@media screen and (max-width:1029px){
+    .box7{
+        translate:7% 0%;
+    }
+}
+@media screen and (max-width:1000px){
+    .box7{
+        translate: 6% 0%;
+    }
+    .jouen{
+margin-top: 1020px;
+margin-left: -125px;
+    }
+    .jhh{
+margin-left: -625px;
+margin-top: 770px;
+    }
+    .nav2{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:992px){
+    .link-brand{
+        display: none;
+    }
+    .link-link{
+        display: block;
+    }
+}
+@media screen and (max-width:900px){
+    .Element-components h1{
+        text-align: center;
+     }
+     .Element-components h2{
+        text-align: center;
+     }
+     .Element-components h3{
+        text-align: center;
+     }
+     .Element-components{
+            position: relative;
+    text-align:center;
+    margin-top: -330px;
+    margin-left: 0px;
+     }
+     .button{
+        justify-content: center;
+        margin-right: 100px;
+     }
+     .box1 img{
+        margin-left: 150px;
+    }
+        .carousel-item{
+            height: 80vh;
+        }
+        .box7{
+            translate: 5% 0%;
+        }
+}
+@media screen and (max-width:800px){
+    .box1 img{
+        margin-left: 150px;
+    }
+    .Element-components8 h1{
+margin-left: 100px;
+    }
+    .Element-components8 a{
+        margin-left: 90px;
+    }
+    .img .Element-components6{
+margin-left: -50px;
+    }
+    .jouen{
+        margin-top: 1020px;
+        margin-left: -480px;
+            }
+            .jhh{
+                margin-left: -485px;
+                position: absolute;
+            }
+            .box7{
+                translate: 1% 0%;
+            }
+}
+@media screen and (max-width:700px){
+    .box1 img{
+        margin-left: 50px;
+    }
+    .iuu{
+        margin: 0px;
+
+    }
+    .iuu .col{
+        margin: 0px;
+    }
+}
+@media screen and (max-width:600px){
+    .box1 img{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:410px){
+    .img .Element-components6{
+        margin-left: -100px;
+            }
+}
